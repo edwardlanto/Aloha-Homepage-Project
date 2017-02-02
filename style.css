@@ -197,7 +197,7 @@ table {
     display:flex;
     justify-content:space-between;
     flex-direction: row;
-    border-bottom:1px solid #d7d7d7
+    /*border-bottom:1px solid #d7d7d7*/
     
 
 }
@@ -212,9 +212,9 @@ table {
   
 
 }
-a{
+/*a{
     text-decoration:none;
-}
+}*/
 
 
 
@@ -247,11 +247,6 @@ header{
     
 }
    
-
-
-   
-
-
 .headingclass {
     display:flex;
     flex-wrap:wrap;
@@ -270,7 +265,7 @@ header{
     background-size: contain,contain, auto;
     display:inline-block;
 
-    }
+}
 
 .handcrafted{
     text-align:center;
@@ -280,12 +275,11 @@ header{
     font-style:italic;
     font-weight:100;
 
-   }
+}
 
 .mostloved{
     font-family: 'Playfair Display Web', serif;
     text-align:center;
-    border-top:1px solid #d7d7d7;
     margin-bottom:1rem;
     padding-top:4.5rem;
     display:block;
@@ -294,22 +288,48 @@ header{
     text-align:center;
     
 }
-/*CATEGORY SECTION*/
+/*------------CATEGORY SECTION*/
+
+/*.category-container{
+    height:auto;
+    overflow:hidden;
+}*/
 
 .category-list{
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
-    justify-content:center;
     width:100%;
+    align-items:center;
+
 }
 
 
-.mens-pic {
+.category-rectangle{
     flex-basis:100%;
-    display:inline;
+    width:100%;
+    height:70%;
+    box-sizing:border-box;
+    overflow:hidden;
+}
+.category-square{
+    flex-basis:50%;
+    width:50%;
+
+}
+
+.category-text-center{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    justify-content:center;
+}
+
+.mens-pic {
     position:relative;
+    width:100%;
     z-index:-999;
+    border-bottom:5px solid white;
     
 
 }
@@ -318,84 +338,102 @@ header{
 .men-name {
     display:inline;
     position:absolute;
+    text-align:center;
+    margin-top:22.5%;    
     
       
 }
 
-.trends{
+
+
+.trends-pic{
     flex-basis:50%;
+    width:100%;
     display:flex;
+    flex-direction:column;
+    
+    
  
  
 }
 
 .trend-name {
-   display:inline;
+   display:inline-block;
    position:absolute;
+   text-align:center;
+   vertical-align:middle;
+   height:50%;
    
         
 }
 
-.glasses {
-    /*position:relative;*/
+.glasses-pic {
+    position:relative;
     display:flex;
     flex-basis:50%;
+    width:100%;
+    z-index:-999;
+    border-left:10px solid white;
+    border-bottom:10px solid white;
    
 
 }
 
-.glassesname{
-    display:inline-flex;
+.glasses-name{
+    display:inline;
     position:absolute;
+    width:50%;
+    text-align:center;
 }
 
 .sales-pic {
+    position:relative;
+    z-index:-999;
     display:inline-flex;
     flex-basis:50%;
-    
-    
+    width:100%;
+    border-right:10px solid white;
 
+    }
 
-}
-
-.salesname{
+.sales-name{
      display:inline-flex;
      position:absolute;
-     margin-left:15%;
-     margin-top:20%;
     
 }
 
-.bags {
-    display:inline-flex;
-    border-left:2px solid white;
-}
-
-.bagname{
-     display:inline-flex;
-     position:absolute;
-     margin-left:15%;
-     margin-top:20%;
-    
-
-}
-
-.womens {
+.bags-pic {
     display:inline-flex;
     width:100%;
-    border-top:4px solid white;
+    flex-basis:50%;
+    
+    border-left:10px solid white;
+}
+
+.bag-name{
+
+     display:inline-flex;
+     position:absolute;
+    
+
+}
+
+.womens-pic {
+    display:inline-flex;
+    width:100%;
+    flex-basis:100%;
+    border-top:5px solid white;
     
 }
 
-.womenname{
-     display:inline;
+.women-name{
+     display:inline-block;
      position:absolute;
-     margin-left:40%;
-     
-  
-   
-
-}
+     width:100%;
+     text-align:center;
+     margin-top:22.5%;
+    
+  }
 
 .collagefont{
      text-transform:uppercase;
@@ -498,13 +536,12 @@ h2{
 
 
 
-ul {
+/*ul {
     display:inline-block;
     text-align:center;
     list-style-type: none;
-    text-align:center;
     
-}
+}*/
 
 .products {
     text-align:center;
@@ -592,9 +629,6 @@ display:block;
 }
 
    
-header{
-display:flex;
-}
 
 footer{
     text-align:center;
@@ -694,14 +728,6 @@ visibility:hidden;
 
 @media screen and (min-width: 600px) {
 
-    .container {
-        display:flex;
-        width:100%;
-    }
-
-    
-}
-
 .aloha{
     order:1;
 }
@@ -712,107 +738,82 @@ visibility:hidden;
 }
 
 
-.menspic {
-    width:49%;
+
+.category-list{
+    width:100%;
+    flex-wrap:wrap;
+    flex-direction:row;
+    }
+
+.category-rectangle{
+    flex-basis:50%;
+    display:inline;
+    overflow-y:hidden;
 }
-
-.menname{
-
-    margin-left:20%;
-    margin-top:10%;
-}
-
-
-.trendname{
-    margin-left:6%;
-    margin-top:10%;
-}
-
-.glasses{
-
-
-}
-
-.glassesname{
-   
-}
-
-.salespic{
+.category-square{
+    flex-basis:25%;
+    width:50%;
+    display:inline-block;
+    box-sizing:border-box;
 
 
 }
 
-.salename{
-    margin-left:6%;
-    margin-top:10%;
-
-
+.trends-pic{
+  
+}
+.glasses-pic{
+  
 }
 
-.bags{
-    width:24.3%;
-    
-
-}
-
-.bagname{
-    margin-left:7%;
-    margin-top:10%;
+.sales-pic{
     
 }
 
-.womens{
-    width:49%;
-}
+.womens-pic{
 
-.womenname{
-    margin-left:20%;
-    margin-top:10%;
 }
-
 
 .products {
     display:flex;
     flex-direction:row;
     width:100%;
-
-
-   
-}
+    
+    }
 .products li{
     align-self:center;
-}
+    }
 
 .collagefont{
     text-size:1.8rem;
-}
+    }
 
 
     
 
 .socialicons a:hover {
     color:#e2574c;
-}
+    }
 
 
 body {
     font-size:16px;
 
-}
+    }
 
 input[type="email"] {
 
     left:20rem;
     text-align:center;
     margin:0 auto;
-}
+    }
 
 .fa fa-facebook icon:hover {
 
     color:#e2574c;
 
 
-}
+    }
 
 
 .socialicons a{
@@ -821,22 +822,17 @@ input[type="email"] {
     padding-left:20px;
     font-family:"ralewaymedium", sans-serif;
     align-content:flex-end;
-}
+    }
 
 .signupdates {
     min-width:100%;
-}
+    }
 
 p4 {    
     min-width:30%;
 
-}
+    }
 
-
-a {
-
-    right:300px;
-}
 
 .socialicons li {
 
@@ -847,11 +843,12 @@ a {
 
     margin-left:1px;
     
-}  
+    }  
 
 footer {
     display:flex;
     justify-content:space-between;
+    }
 }
 @media screen and (min-width: 1240px) {
 
