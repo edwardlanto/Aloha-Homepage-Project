@@ -232,7 +232,7 @@ table {
 .nav-list{
     display:flex;
     justify-content:space-around;
-    width:400px;
+    width:370px;
     margin:0 auto;
 
 }
@@ -302,7 +302,6 @@ table {
     flex-basis:100%;
     width:100%;
     box-sizing:border-box;
-    overflow:hidden;
 }
 .category-square{
     flex-basis:50%;
@@ -500,6 +499,7 @@ h3 {
     color:white;
     text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
     display:inline-block;
+    overflow-x:hidden;
     
 }
 
@@ -516,11 +516,8 @@ h2{
 
 .products {
     text-align:center;
-    display:inline-flex;
     line-height:200%;
     width:100%;
-    flex-wrap:wrap;
-    justify-content:center;
 
 }
 
@@ -693,7 +690,6 @@ visibility:hidden;
 *{
     margin:0;
     padding:0;
-    overflow-x:hidden;
 
 }
 
@@ -734,8 +730,6 @@ visibility:hidden;
     width:50%;
     display:inline-block;
     box-sizing:border-box;
-
-
 }
 
 .mens-pic{
@@ -765,8 +759,6 @@ visibility:hidden;
 }
 
 .products {
-    display:flex;
-    flex-direction:row;
     width:100%;
     
     }

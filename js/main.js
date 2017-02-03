@@ -11,4 +11,18 @@ $(function() {
       }
     }
   });
+//   $('.main-carousel').flickity({
+//   // options
+//   cellAlign: 'left',
+//   contain: true
+// });
+
+$('.main-carousel').flickity({
+		cellAlign: 'left',
+		contain: true,
+		percentPosition: true,
+		imagesLoaded: true,
+		autoPlay: true,
+		prevNextButtons: false
+	});
 });
