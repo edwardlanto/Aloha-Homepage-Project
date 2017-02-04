@@ -194,17 +194,10 @@ table {
 
 }
 
-.navlogo {
- 
-  
-    
-
-}
 
 
 .aloha{
     display:inline-block;
-    margin-left:20px;
     width:10rem;
     height:3rem;
   
@@ -221,11 +214,13 @@ table {
     height:auto;
     align-self:flex-end;  
     cursor:pointer;
+    padding-right:10px;
+    padding-bottom:10px;
 }
 .nav-bar{
-    width:85%;
+    width:96%;
     margin: 1rem 0 0.5rem 0;
-    border-top: 1px solid grey;
+    border-top: 1px solid #d7d7d7;
     margin:0 auto;
 }
 
@@ -234,6 +229,9 @@ table {
     justify-content:space-around;
     width:370px;
     margin:0 auto;
+    padding:.8rem 0rem;
+    
+    
 
 }
  
@@ -241,10 +239,11 @@ table {
     display:inline;
     justify-content:center;
     color:#e2574c;
-    font-size:1rem;
-    height:1px;
+    font-size:0.9rem;
     text-decoration: none;
     text-transform:uppercase;
+    font-family:'ralewaymedium',sans-serif;
+    font-weight:bold;
 }
 
 
@@ -308,6 +307,8 @@ table {
     width:50%;
     height:100%;
     box-sizing:border-box;
+    position:relative;
+
 
 }
 
@@ -316,6 +317,7 @@ table {
     flex-direction:row;
     width:100%;
     justify-content:center;
+    position:absolute;
     
 }
 
@@ -343,6 +345,7 @@ table {
     display:inline-block;
     z-index:-999;
     height:100%;
+    align-self:stretch;
     
     }
 
@@ -350,6 +353,7 @@ table {
    display:inline-block;
    position:absolute;
    text-align:center;
+   top:50%;
    }
 
 .glasses-pic {
@@ -372,7 +376,6 @@ table {
     }
 
 .sales-pic {
-    position:relative;
     z-index:-999;
     display:inline-block;
     flex-basis:50%;
@@ -384,7 +387,6 @@ table {
 .sales-name{
      display:inline-flex;
      position:absolute;
-     /*margin-top:20%;*/
     
 }
 
@@ -395,7 +397,6 @@ table {
     box-sizing:content-box;
     height:100%;
     
-    /*border-left:10px solid white;*/
 }
 
 .bag-name{
@@ -488,6 +489,7 @@ h3 {
     color:white;
     text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
     font-weight:bold;
+    font-family:"ralewaymedium",sans-serif;
 
     
 }
@@ -495,11 +497,11 @@ h3 {
 .spring {
     padding-top:0.9rem;
     font-family:"playfair_display", serif;
-    font-size:4rem;
+    font-size:3.4rem;
     color:white;
     text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
     display:inline-block;
-    overflow-x:hidden;
+    overflow:hidden;
     
 }
 
@@ -514,11 +516,15 @@ h2{
     padding-top:1rem;
 }
 
-.products {
+.sale-item{
     text-align:center;
     line-height:200%;
     width:100%;
 
+}
+
+.products{
+    margin-left:20px;
 }
 
 .navflex{
@@ -666,34 +672,38 @@ input[type="button"] {
     color:#e2574c;
 }
 
-.socialicons a{
 
-visibility:hidden;
 
+
+
+
+
+.main-carousel{
+overflow-x:visible;
 }
 
-#redicon{
+.social-icons li{
+    display:inline;
+}
+
+.social-text{
+    visibility:hidden;;
+}
+.red-icon{
     color:white;
-    font-weight:bold;
-    /*font-size:10rem;*/
-    text-decoration:none;
-    visibility:hidden;
-
+    visibility:visible;
+    display:inline;
 }
-
-#redicon:hover{
+.red-icon:hover{
      color:#e2574c;
-
-
-}
-
-*{
-    margin:0;
-    padding:0;
-
 }
 
 @media screen and (min-width: 600px) {
+
+body {
+    font-size:16px;
+
+    }
 
 .header-container{
     flex-wrap:nowrap;
@@ -720,6 +730,11 @@ visibility:hidden;
 .cart{
     width:4rem
 }
+
+.spring {
+    font-size:4rem;
+
+}
 .category-rectangle{
     flex-basis:50%;
     display:inline;
@@ -732,56 +747,28 @@ visibility:hidden;
     box-sizing:border-box;
 }
 
-.mens-pic{
-}
-
-.trends-pic{
-    /*border-left:10px solid white;*/
-
-}
-
-.glasses-pic{
-  
-}
-
-.sales-pic{
-    /*border-top:4px solid white;*/
-
     
-}
-.bags-pic{
- /*border-top:5px solid white;*/
-}
-
-.womens-pic{
-
-    /*border-left:10px solid white;*/
-}
-
-.products {
-    width:100%;
-    
-    }
-.products li{
-    align-self:center;
-    }
 
 .collagefont{
     text-size:1.8rem;
     }
 
+.sale-item{
+    width:50%;
+}
 
-    
+.main-carousel{
+    overflow-x:hidden;
+
+}
+/*---------------------FOOTER */
 
 .socialicons a:hover {
     color:#e2574c;
     }
 
 
-body {
-    font-size:16px;
 
-    }
 
 input[type="email"] {
 
@@ -801,7 +788,6 @@ input[type="email"] {
 .socialicons a{
     visibility:visible;
     display:inline-flex;
-    padding-left:20px;
     font-family:"ralewaymedium", sans-serif;
     align-content:flex-end;
     }
@@ -816,33 +802,30 @@ p4 {
     }
 
 
-.socialicons li {
 
-    display:inline-block;
-    text-align:center;
-    padding:1rem 0rem 0rem 0rem;
-    min-width:1px;
-
-    margin-left:1px;
-    
-    }  
 
 footer {
     display:flex;
     justify-content:space-between;
+    flex-direction:row;
     }
+
+body{
+    box-sizing:border-box;
+    overflow-x:hidden;
 }
 
-*{
-    box-sizing:border-box;
+.social-icons li{
+    display:block;
+    padding-left:10px;
+}
+
+.social-text{
+    visibility:visible;
 }
 @media screen and (min-width: 1240px) {
 
-    
-.products li{
-    width:25%;
 
-}
 
 body {
     font-size:16px;
@@ -855,4 +838,10 @@ body {
     width:40%;
 
 }
+
+.sale-item{
+    width:25%;
+}
+
+
 

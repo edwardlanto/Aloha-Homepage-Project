@@ -25,4 +25,8 @@ $('.main-carousel').flickity({
 		autoPlay: true,
 		prevNextButtons: false
 	});
+// $('.email-button').function(function{
+//   console.log('hello');
+
+// })
 });
