@@ -1,4 +1,6 @@
 $(function() {
+
+  
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -11,11 +13,7 @@ $(function() {
       }
     }
   });
-//   $('.main-carousel').flickity({
-//   // options
-//   cellAlign: 'left',
-//   contain: true
-// });
+
 
 $('.main-carousel').flickity({
 		cellAlign: 'left',
@@ -25,8 +23,5 @@ $('.main-carousel').flickity({
 		autoPlay: true,
 		prevNextButtons: false
 	});
-// $('.email-button').function(function{
-//   console.log('hello');
 
-// })
 });
