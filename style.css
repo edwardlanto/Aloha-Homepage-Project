@@ -184,13 +184,16 @@ table {
    width: auto;
    z-index: 100000; /* above all content */
 }
-/*------------------HEADER------------------*/
+/*---------------------------HEADER--------------------------*/
 .header-container {
     width:100%;
     display:flex;
     flex-wrap:wrap;
     flex-direction:row;
     justify-content:space-between;
+    position:fixed;
+    background-color:white;
+    z-index:999;
 
 }
 
@@ -211,13 +214,13 @@ table {
 }
 
 .cart {
-    display:inline;
-    width:3.5rem; 
-    height:auto;
+    display:inline-block;
     align-self:flex-end;  
     cursor:pointer;
+    width:3.5rem;
     padding-right:10px;
     padding-bottom:10px;
+    padding-top:10px;
 }
 .nav-bar{
     width:96%;
@@ -246,7 +249,7 @@ table {
     font-weight:bold;
     }   
 
-/*/*------------------HERO IMAGE-----------------**/
+/*/*--------------------------HERO IMAGE-----------------------**/
 .hero {
     height:530px;
     width:100%;
@@ -322,25 +325,34 @@ h2{
     width:100%;
     box-sizing:border-box;
     position:relative;
-    background:linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% );
+    background:-webkit-linear-gradient(rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%);
+    background:-o-linear-gradient(rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%);
+    background:linear-gradient(rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%);
+    overflow-y:hidden;
 }
+
+
 .category-square{
     flex-basis:50%;
     width:50%;
-    height:100%;
     box-sizing:border-box;
     position:relative;
     background:linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% );
-    }
+    
+}
 
 .category-text-center{
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     width:100%;
+    height:100%;
     justify-content:center;
+    align-items:center;
     position:absolute;
     
     }
+
+/*-----------------------COLLAGE PICTURES -----------------------*/
 
 .mens-pic {
     display:inline-block;
@@ -352,14 +364,7 @@ h2{
     }
 
 
-.men-name {
-    display:inline;
-    position:absolute;
-    text-align:center;
-    
-    }
-
-    .trends-pic{
+.trends-pic{
     flex-basis:50%;
     width:100%;
     position:relative;
@@ -369,13 +374,6 @@ h2{
     align-self:stretch;
     
     }
-
-.trend-name {
-   display:inline-block;
-   position:absolute;
-   text-align:center;
-   top:50%;
-   }
 
 .glasses-pic {
     position:relative;
@@ -388,12 +386,6 @@ h2{
     
     }
 
-.glasses-name{
-    display:inline;
-    position:absolute;
-    text-align:center;
-    
-    }
 
 .sales-pic {
     z-index:-999;
@@ -404,11 +396,6 @@ h2{
 
     }
 
-.sales-name{
-     display:inline-flex;
-     position:absolute;
-    
-}
 
 .bags-pic {
     display:inline-block;
@@ -416,13 +403,8 @@ h2{
     flex-basis:50%;
     box-sizing:content-box;
     height:100%;
+
     
-}
-
-.bag-name{
-
-     display:inline-flex;
-     position:absolute;
 }
 
 .womens-pic {
@@ -432,17 +414,37 @@ h2{
     height:100%;    
     flex-basis:100%;
     
+    
 }
 
-.women-name{
-     display:inline-block;
-     position:absolute;
-     width:100%;
-     text-align:center;
-     top:50%;
-     transform:translateY(100%)
-    
+/*-------------------COLLAGE BORDERS---------------------*/
+
+.mens-border{
+      border-bottom:8px solid white;
   }
+
+.trends-border{
+    border-right:8px solid white;
+}
+
+.glasses-border{
+    border-left:8px solid white;
+}
+
+.sales-border{
+    border-top:8px solid white;
+}
+
+.bags-border{
+    border-left:8px solid white;
+    border-top:8px solid white;
+}
+
+.womens-border{
+    border-top:8px solid white;
+}
+
+
 
   /*--------------COLLAGE FONTS--------------*/
 
@@ -453,6 +455,8 @@ h2{
      font-weight:bold;
      font-size:1.6rem;
      text-shadow:2px 2px 4px rgba(100, 100, 100, 0.8);
+     display:inline-flex;
+     position:absolute;
 }
 
 .collagefont:hover{
@@ -523,16 +527,27 @@ h3 {
 .sale-item{
     text-align:center;
     line-height:200%;
-    width:100%;
+    width:120%;
 
 }
 
-.products{
-    margin-left:20px;
+
+
+
+/*--------------------------FOOTER-----------------------*/
+
+footer{
+    text-align:center;
+    background-color: #242424;
+    text-align:center;
+    background-size:cover;
+    color:white;
+    margin-top:0.5%;
+    padding-top:2.8rem;
+    justify-content:space-around;;
 }
 
 
-/*--------------FOOTER-----------------*/
 .sign-updates{
     text-align:center;
     display:inline-block;
@@ -575,7 +590,6 @@ h3 {
     display:inline-block;
     overflow:hidden;    
 }
-/*------------------FOOTER---------------------*/
 
 
 .subscribeform {
@@ -600,22 +614,13 @@ display:block;
 .address {
 
     color:#969696;
-    display:inline-block;
+    display:block;
     align-self:center;
 }
 
    
 
-footer{
-    text-align:center;
-    background-color: #242424;
-    text-align:center;
-    background-size:cover;
-    color:white;
-    margin-top:0.5%;
-    padding-top:2.8rem;
-    justify-content:space-around;;
-}
+
 
 
 
@@ -629,8 +634,7 @@ footer{
 }
 
 
-
-input[type="email"], input[type="button"] {    
+input[type="email"], input[type="submit"] {    
    border-radius: 25px;
    border: 0;
 }
@@ -649,7 +653,7 @@ input[type="value"]{
   padding-right: 20px;
 }
 
-input[type="button"] {
+input[type="submit"] {
   font-weight: bold;
   background-color: #e2574c ;
   cursor:pointer;
@@ -666,6 +670,8 @@ input[type="button"] {
 #contactemail  {
 
     color:white;
+    text-decoration:underline;
+
 }
 
 
@@ -678,7 +684,9 @@ input[type="button"] {
 .main-carousel{
 overflow-x:visible;
 }
-
+.social-icons{
+    padding-bottom:2.5rem;
+}
 .social-icons li{
     display:inline-block;
     width:50px;
@@ -688,14 +696,12 @@ overflow-x:visible;
 .social-text{
     visibility:hidden;;
 }
-.red-icon{
+#red-icon{
     color:white;
     visibility:visible;
-    display:inline;
 }
-.red-icon:hover{
+#red-icon:hover{
      color:#e2574c;
-     padding-bottom:2rem;
 }
 
 .icon{
@@ -707,7 +713,7 @@ padding: 2rem 0 3.5rem 0;
 body {
     font-size:16px;
 
-    }
+}
 
 .header-container{
     flex-wrap:nowrap;
@@ -760,7 +766,18 @@ body {
     overflow-x:hidden;
 
 }
-/*---------------------FOOTER */
+
+/*-----------------------COLLAGE BORDERS-----------------*/
+
+.mens-border{
+    border-bottom:none;
+    border-right:8px solid white;
+}
+
+.bags-border{
+    border-right:8px solid white;
+}
+/*---------------------FOOTER --------------------*/
 
 
 
@@ -795,6 +812,12 @@ footer {
     justify-content:space-between;
     flex-direction:row;
     }
+
+.contact-info{
+    text-align:left;
+    padding-left:1.5rem;
+    padding-bottom:3rem;
+}
 
 .social-icons{
     margin-right: 50px;
