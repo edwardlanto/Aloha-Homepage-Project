@@ -1,44 +1,63 @@
-PROJECT 1 - ALOHA PROJECT - 
+# PROJECT 1 - ALOHA PROJECT - 
 =========================
-LANGUAGES USED = HTML & CSS
+# LANGUAGES USED = HTML & CSS
 =========================
 
-THIS IS A RESPONSIVE WEBDESIGN OF THE ALOHA DESIGN COMP PROVIDED TO US, WORKS ON ALL BROWSERS AND
+# THIS IS A RESPONSIVE WEBDESIGN OF THE ALOHA DESIGN COMP PROVIDED TO US, WORKS ON ALL BROWSERS AND
 MOBILE, TABLET, AND DESKTOP VERSIONS
 
 ==========================================================================================
 
-ALOHA IS A MODERN SHOPPING WEBSITE WITH A SLEEK DESIGN AND SELLS CLOTHING PRODUCTS
+# ALOHA IS A MODERN SHOPPING WEBSITE WITH A SLEEK DESIGN AND SELLS CLOTHING PRODUCTS
 
 ==========================================================================================
 
-THIS IS MY REPOSITORY FOR THE PROJECT
+# THIS IS MY REPOSITORY FOR THE PROJECT
 
 ===========================================================================================
 
-WHAT I LEARNED
+##WHAT I LEARNED
 
-    DURING MY RESUBMIT OF ALOHA P2, I LEARNED FLEX BOX IS REALLY VALUABLE AND I SAW ALL THE DOWNSIDES OF MY PREVIOUS ATTEMPT WITH
 
-PERCENTAGES. GETTING MY FLICKITY TO WORK WAS REALLY GREAT AND GOT ME UNDERSTANDING HOW TO IMPORT PLUG-INS AND ATTACH MY 
 
-PRODUCT ITEMS TO THEM. ADDING THE EMAIL VALIDATOR WAS COOL ALSO, WITH PRIOR KNOWLEDGE OF USING JS WITH SELECTORS AND EVENT HANDLERS,
+* Over my time of redoing I learned flex box is really valuable and I saw all the downsides of my previous attempt with
 
-PUTTING THE CODE IN WAS EASIER THAN EXPECTED. I UNDERSTAND FLEX-WRAP ALOT MORE AFTER WORKING ON IT ALOT TO MAKE MY NAVIGATION COLLAPSE
+percentages. 
 
-TO THE TOP WHEN HITTING TABLET VERSION. SETTING A SPECIFIC WIDTH AND DROPPING THAT WIDTH WHEN HITTING THE TABLET BREAKPOINT TOOK
+* Getting my flickity to work was really great and got me understanding how to import plug-ins work and gave me
+taught me plug-ins are nothing, but other peoples code. 
 
-A LONG TIME TO FIGURE OUT, BUT ILL REMEMEMBER THE CONCEPT BECAUSE OF THAT STRUGGLE. ANOTHER PERSONAL LEARNING I GOT FROM THIS WAS IS
+* Adding the email validator was taught me every site I design should have this, because if I were to send out newsletters
 
-GOOGLE IS YOUR BEST FRIEND, BUT AFTER STRUGGLING TRYING TO GET SOMETHING TO WORK. COPY AND PASTING THE JAVASCRIPT EMAIL VALIDATION
+I'd only want to real emails. And after learning more about JS with selectors and event handlers before redoing my project,
 
-AND BREAKING IT DOWN AND LEARNING HOW IT WORKS, GOT ME TO UNDERSTAND NOT ONLY HOW IT WORKS, BUT THE PARTS THAT BUILD IT. FLEX-BASIS HELPED
+putting my Jquery object/button to be pressed made was easier than I expected
 
-OUT ALOT OF WELL, ONLY TAKING UP A CERTAIN LENGTH OF THE SCREEN, GIVING MY PICTURES A SCALABLE LOOK. AND THE COMMENT I GOT ON MY FIRST
+* I understand flex-wrap a lot more after working on it alot to make my navigation collapse
 
-HAND IN, TO TAKE OFF THE EXTRA MEDIA QUERY MADE PERFECT SENSE, AND I LEARNED TO FOLLOW ONLY BREAKPOINTS GIVEN TO ME. FLEX BOX WAS 
+to the top when hitting tablet version. Setting a specific width and dropping that 
 
-GOLDEN TO ME DURING THIS PROJECT, MOVING ITEMS TO THE END OF THE PAGE EG. CART OR HAVING THE OPTION TO MOVE IT TO THE START.
+width when hitting the tablet breakpoint took a long time to figure out, and was worth the time to perfect.
+
+* Another personal learning I got from this was is google is your best friend, but after struggling trying to get something to work. 
+
+Copy and pasting the JavaScript email validation and breaking it down and learning how it works, got me to 
+
+understand not only how it works, but the parts that build it. 
+
+* Flex-basis helped out alot of well, only taking up a certain length of the screen, giving my pictures a scalable look. 
+
+Also the comment I got on my first hand in, to take off the extra media query made perfect sense, and I learned to follow only breakpoints given to me. 
+
+* Flex box was golden to me during this project, moving items to the end of the page eg. cart or having the option to move it to the start.
+
+* Finally, I learned organized code helps out alot, it really shows you who is the parent and child of something,
+
+and even organizing brackets in JavaScript makes a real difference, by making it clear which bracket belongs with
+
+what function.
+
+
 
 
 
