@@ -251,7 +251,7 @@ table {
     url("images/banner-girl.png")no-repeat center 160px,
     url("images/flower-bkgd.jpg") repeat-x center;
     background-size: cover, 170px 405px, cover;
-    /*display:inline-block;*/
+
     }
 
 .new-collection {
@@ -347,7 +347,7 @@ h2{
 
 /*-----------------------COLLAGE PICTURES -----------------------*/
 
-.mens-pic {
+.mens-pic, .womens-pic{
     display:inline-block;
     position:relative;
     width:100%;
@@ -356,7 +356,7 @@ h2{
     }
 
 
-.trends-pic{
+.trends-pic, .glasses-pic, .sales-pic, .bags-pic {
     flex-basis:50%;
     width:100%;
     position:relative;
@@ -365,7 +365,7 @@ h2{
     height:100%;
     }
 
-.glasses-pic {
+/*.glasses-pic {
     position:relative;
     display:inline-block;
     flex-basis:50%;
@@ -373,20 +373,20 @@ h2{
     z-index:-999;
     box-sizing:content-box;
     height:100%;
-    }
+    }*/
 
 
-.sales-pic {
+/*.sales-pic {
     z-index:-999;
     display:inline-block;
     flex-basis:50%;
     width:100%;
     height:100%;
     position:relative;
-    }
+    }*/
 
 
-.bags-pic {
+/*.bags-pic {
     display:inline-block;
     width:100%;
     flex-basis:50%;
@@ -394,16 +394,16 @@ h2{
     height:100%;
     position:relative;
     z-index:-999;
-    }
+    }*/
 
-.womens-pic {
+/*.womens-pic {
     z-index:-999;
     display:inline-block;
     width:100%;
     height:100%;    
     flex-basis:100%;
     position:relative;
-    }
+    }*/
 
 /*-------------------COLLAGE BORDERS---------------------*/
 
@@ -415,20 +415,20 @@ h2{
     border-right:8px solid white;
     }
 
-.glasses-border{
+.glasses-border, .bags-border{
     border-left:8px solid white;
     }
 
-.sales-border{
+/*.sales-border{
     border-top:8px solid white;
-    }
+    }*/
 
 .bags-border{
-    border-left:8px solid white;
+    /*border-left:8px solid white;*/
     border-top:8px solid white;
     }
 
-.womens-border{
+.womens-border, .sales-border{
     border-top:8px solid white;
     }
 
@@ -469,10 +469,8 @@ p4{
     text-align:center;
     display:block;
     line-height:2rem; 
-    /*padding:0rem 4rem 2.6rem 4rem;*/
     font-family:"raleway",sans-serif;
     font-weight:lighter;
-    /*width:418px;*/
     width:400px;
     padding-bottom:3rem;
     max-width:700px;
@@ -810,7 +808,6 @@ padding: 0 0 1rem 0;
     url("images/banner-girl.png")no-repeat center 160px,
     url("images/flower-bkgd.jpg") repeat-x center;
     background-size: cover, 250px 615px, contain;
-    /*display:inline-block;*/
     }
 
 .new-collection{
