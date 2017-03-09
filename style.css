@@ -239,7 +239,25 @@ table {
     text-transform:uppercase;
     font-family:'raleway',sans-serif;
     font-weight:bold;
-    }   
+    }
+
+    .increment-button{
+        background-color:transparent;
+        border:none;
+    }
+
+    #incrementer{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border: 2px solid orange;
+    border-radius: 50px;
+    font-weight: bold;
+    background-color: orange;
+    color: white;
+    position: absolute;
+    right: 65px;
+}
 
 /*/*--------------------------HERO IMAGE-----------------------**/
 .hero {
