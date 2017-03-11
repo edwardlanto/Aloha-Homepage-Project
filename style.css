@@ -47,9 +47,6 @@ table {
 	border-spacing: 0;
 }
 
-
-
-
 @font-face {
     font-family: 'playfair';
     src: url('fonts/playfairdisplay-bold-webfont.eot');
@@ -61,9 +58,6 @@ table {
     font-style: normal;
 
 }
-
-
-
 
 @font-face {
     font-family: 'playfair';
@@ -77,9 +71,6 @@ table {
 
 }
 
-
-
-
 @font-face {
     font-family: 'playfair';
     src: url('fonts/playfairdisplay-italic-webfont.eot');
@@ -91,9 +82,6 @@ table {
     font-style: italic;
 
 }
-
-
-
 
 @font-face {
     font-family: 'playfair';
@@ -107,9 +95,6 @@ table {
 
 }
 
-
-
-
 @font-face {
     font-family: 'raleway';
     src: url('fonts/raleway-light-webfont.eot');
@@ -121,9 +106,6 @@ table {
     font-style: normal;
 
 }
-
-
-
 
 @font-face {
     font-family: 'raleway';
@@ -137,9 +119,6 @@ table {
 
 }
 
-
-
-
 @font-face {
     font-family: 'raleway';
     src: url('fonts/raleway-medium-webfont.eot');
@@ -150,9 +129,6 @@ table {
     font-weight: bold;
     font-style: normal;
     }
-
-
-
 
 @font-face {
     font-family: 'raleway';
@@ -197,12 +173,7 @@ table {
     display:inline-block;
     width:10rem;
     height:3rem;
-    margin-left:2rem;
-    margin-top:0.7rem;
-    }
-.nav-cart{
-    display:flex;
-    justify-content:flex-end;
+    margin:0.7rem 0rem 0rem 2rem;
     }
 
 .cart {
@@ -210,9 +181,7 @@ table {
     align-self:flex-end;  
     cursor:pointer;
     width:3.5rem;
-    padding-right:50px;
-    padding-bottom:10px;
-    padding-top:10px;
+    padding: 10px 50px 10px 0px;
     }
 .nav-bar{
     width:96%;
@@ -274,7 +243,6 @@ table {
 
 .new-collection {
     text-align:center;
-    display:block;
     padding-top: 15.5rem;
     text-transform:uppercase;
     font-size:1.25rem;
@@ -301,8 +269,7 @@ table {
     }
 
 h2{
-    padding-bottom:2rem;
-    padding-top:1rem;
+    padding:1rem 0rem 2rem 0rem;
     }
 
 .spring {
@@ -369,7 +336,7 @@ h2{
     display:inline-block;
     position:relative;
     width:100%;
-    z-index:-999;
+    z-index:-999; 
     height:100%;
     }
 
@@ -382,46 +349,6 @@ h2{
     z-index:-999;
     height:100%;
     }
-
-/*.glasses-pic {
-    position:relative;
-    display:inline-block;
-    flex-basis:50%;
-    width:100%;
-    z-index:-999;
-    box-sizing:content-box;
-    height:100%;
-    }*/
-
-
-/*.sales-pic {
-    z-index:-999;
-    display:inline-block;
-    flex-basis:50%;
-    width:100%;
-    height:100%;
-    position:relative;
-    }*/
-
-
-/*.bags-pic {
-    display:inline-block;
-    width:100%;
-    flex-basis:50%;
-    box-sizing:content-box;
-    height:100%;
-    position:relative;
-    z-index:-999;
-    }*/
-
-/*.womens-pic {
-    z-index:-999;
-    display:inline-block;
-    width:100%;
-    height:100%;    
-    flex-basis:100%;
-    position:relative;
-    }*/
 
 /*-------------------COLLAGE BORDERS---------------------*/
 
@@ -437,16 +364,8 @@ h2{
     border-left:8px solid white;
     }
 
-/*.sales-border{
-    border-top:8px solid white;
-    }*/
 
-.bags-border{
-    /*border-left:8px solid white;*/
-    border-top:8px solid white;
-    }
-
-.womens-border, .sales-border{
+.womens-border, .sales-border, .bags-border{
     border-top:8px solid white;
     }
 
@@ -472,8 +391,7 @@ h2{
 p4{
     font-size:1.05rem;
     display:inline-block;
-    padding-left:0.7rem;
-    padding-right:0.7rem; 
+    padding:0 0.7rem 0 0.7rem;
     font-family:"railway",Arial,sans-serif;
     color:#FFF;
     font-weight:lighter;
@@ -493,7 +411,6 @@ p4{
     padding-bottom:3rem;
     max-width:700px;
     margin:0 auto;
-   box-sizing:border-box;
     }
 
 .price {
@@ -527,9 +444,6 @@ h3 {
     line-height:200%;
     width:120%;
     }
-
-
-
 /*--------------------------FOOTER-----------------------*/
 
 footer{
@@ -578,20 +492,15 @@ footer{
     linear-gradient( to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100% ),
     url("images/wave-bkgd.jpg") no-repeat center;
     background-size: cover, auto;
-    background-position:  bottom;
+    background-position: bottom;
     text-align:center;
     margin-top:4rem;
     display:inline-block;
     overflow:hidden;    
     }
 
-
-.subscribeform {
-display:block;
-    }
 .contact-info {
     display:inline-block;
-    padding-top:0;
     line-height:2rem;
     font-family:"playfair", sans-serif;
     }
@@ -627,7 +536,6 @@ input[type="email"]{
   padding-left: 1rem;
   font-size:1rem;
   font-family:"raleway",sans-serif;
-  display:inline-block;
   font-weight:bold;
     }
 
@@ -705,10 +613,6 @@ body {
     order:1;
     }
 
-.cart{
-    width:4rem
-    }
-
 .spring {
     font-size:3rem;
     width:auto;
@@ -757,12 +661,8 @@ input[type="email"] {
     margin:0 auto;
     }
 
-.social-icons li:hover {
+.social-icons li:hover, .social-icons a:hover{
 
-    color:#e2574c;
-    }
-
-.social-icons a:hover{
     color:#e2574c;
     }
 
@@ -834,10 +734,6 @@ padding: 0 0 1rem 0;
 
 .spring{
     font-size:4rem;
-    }
-
-body {
-    font-size:16px;
     }
 
 .signupdates{
