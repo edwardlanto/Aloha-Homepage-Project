@@ -286,9 +286,7 @@ h2{
 .most-loved{
     font-family: 'playfair', serif;
     text-align:center;
-    margin-bottom:1rem;
-    padding-top:4.5rem;
-    display:block;
+    margin: 4.5rem 0 1rem 0;
     font-size:2.4rem;
     font-style:italic;
     text-align:center;
@@ -340,8 +338,7 @@ h2{
     height:100%;
     }
 
-
-.trends-pic, .glasses-pic, .sales-pic, .bags-pic {
+    .trends-pic, .glasses-pic, .sales-pic, .bags-pic {
     flex-basis:50%;
     width:100%;
     position:relative;
@@ -369,9 +366,7 @@ h2{
     border-top:8px solid white;
     }
 
-
-
-  /*--------------COLLAGE FONTS--------------*/
+/*--------------COLLAGE FONTS--------------*/
 
 .collagefont{
      text-transform:uppercase;
@@ -515,8 +510,7 @@ footer{
     align-self:center;
     }
 
-   
-.socialicons a {
+.social-icons a {
     display:inline;
     color:white;
     min-width:2px;
@@ -554,13 +548,13 @@ input[type="submit"] {
   font-family:"raleway", sans-serif;
     }
 
-#contactemail  {
+.contact-email  {
 
     color:white;
     text-decoration:underline;
     }
 
-#contactemail:hover {
+.contact-email:hover {
 
     color:#e2574c;
     }
