@@ -47,7 +47,6 @@ took a long time to figure out and was worth the time to perfect.
 *Another personal learning I got from this was is google is your best friend, but after struggling trying to get something to 
 
 work. Copy and pasting the JavaScript email validation and breaking it down and learning how it works, got me to 
-
 understand not only how it works, but the parts that build it. 
 
 *Flex-basis helped out alot of well, only taking up a certain length of the screen, giving my pictures a scalable look. 
@@ -57,7 +56,6 @@ understand not only how it works, but the parts that build it.
 *Using justify-content to push items to the start and end of page really helped out alot.
 
 *Finally, I learned organized code helps out alot, it really shows you who is the parent and child of something,
-
 and even organizing brackets in JavaScript makes a real difference, by making it clear which bracket belongs with
 
 what function.
