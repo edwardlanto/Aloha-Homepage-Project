@@ -26,7 +26,7 @@ ________________________________________________________________________________
 
 * Adding the email validator has taught me every site I design should have this, because if I were to send out monthly newsletters I'd only want to valid emails to have the ability to receive.
 
-* Regex AKA regular expressions are really powerful and can filter anything I want other of a string.
+* Regex AKA regular expressions are really powerful and can filter anything I want out of a of a string.
 
 
 * I understand flex-wrap a lot more now, after utilizing it on my main navigation to collapse at the top of the best when the extending the width of the screen. It's a property that has alot of flexibility and use cases, especially at media query breakpoints.
