@@ -50,7 +50,7 @@ table {
 @font-face {
     font-family: 'playfair';
     src: url('fonts/playfairdisplay-bold-webfont.eot');
-    src: url('fonts/layfairdisplay-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    src: url('fonts/playfairdisplay-bold-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/playfairdisplay-bold-webfont.woff2') format('woff2'),
          url('fonts/playfairdisplay-bold-webfont.ttf') format('truetype'),
          url('fonts/playfairdisplay-bold-webfont.svg#playfair_displaybold') format('svg');
@@ -86,8 +86,8 @@ table {
 @font-face {
     font-family: 'playfair';
     src: url('fonts/playfairdisplay-regular-webfont.eot');
-    src: url('fonts/fonts/playfairdisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/pfonts/layfairdisplay-regular-webfont.woff2') format('woff2'),
+    src: url('fonts/playfairdisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/playfairdisplay-regular-webfont.woff2') format('woff2'),
          url('fonts/playfairdisplay-regular-webfont.ttf') format('truetype'),
          url('fonts/playfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg');
     font-weight: normal;
@@ -470,11 +470,12 @@ footer{
 
 .stay-updated-text {
     font-family:"raleway", sans-serif;
-    max-width:100%;
+    max-width:665px;
     line-height:35px;
     font-weight:lighter;
     font-size:1.15rem;
     color:white;
+    margin:0 auto;
     }
 
 .ocean-image-footer {
@@ -548,14 +549,12 @@ input[type="submit"] {
   font-family:"raleway", sans-serif;
     }
 
-.contact-email  {
-
+.contact-email{
     color:white;
     text-decoration:underline;
     }
 
 .contact-email:hover {
-
     color:#e2574c;
     }
 
@@ -586,161 +585,157 @@ padding: 2rem 0 3.5rem 0;
 
 @media screen and (min-width: 600px) {
 
-body {
-    font-size:16px;
-    overflow-x:hidden;
+    body {
+        font-size:16px;
+        overflow-x:hidden;
+
+        }
+
+    .header-container{
+        flex-wrap:nowrap;
+
+        }
+
+    .nav-bar{
+        border-top:none;
+        padding-top:1.2rem;
+        }   
+
+    .nav-cart{
+
+        order:1;
+        }
+
+    .spring {
+        font-size:3rem;
+        width:auto;
+
+        }
+    .category-rectangle{
+        flex-basis:50%;
+        display:inline;
+        overflow-y:hidden;
+        }
+
+    .category-square{
+        flex-basis:25%;
+        width:50%;
+        display:inline-block;
+        box-sizing:border-box;
+        }
+
+    .sale-item{
+        width:60%;
+        }
+
+    .apparel-text{
+        width:650px;
+        }
+
+    .main-carousel{
+        overflow-x:hidden;
+        }
+
+    /*-----------------------COLLAGE BORDERS-----------------*/
+
+    .mens-border{
+        border-bottom:none;
+        border-right:8px solid white;
+        }
+
+        .bags-border{
+        border-right:8px solid white;
+        }
+    /*---------------------FOOTER --------------------*/
+
+    input[type="email"] {
+
+        text-align:center;
+        margin:0 auto;
+        }
+
+    .social-icons li:hover, .social-icons a:hover{
+
+        color:#e2574c;
+        }
+
+    .signupdates{
+        min-width:100%;
+        }
+
+    p4{    
+        min-width:30%;
+
+        }
+    footer{
+        display:flex;
+        justify-content:space-between;
+        flex-direction:row;
+        }
+
+    .contact-info{
+        text-align:left;
+        padding-left:3.5rem;
+        padding-bottom:3rem;
+        }
+
+    .social-icons{
+        text-align:left;
+        }
+
+
+    .icon{
+    padding: 0 0 1rem 0;
+
+        }
+
+    .social-icons li{
+        display:block;
+        padding-left:10px;
+        width:auto;
+        }
+
+    .social-text{
+        visibility:visible;
+        font-family:"raleway", sans-serif;
+        color:white;
+        font-weight:lighter;
+        padding-left:1rem;
+        text-decoration:none;
+        }
 
     }
-
-.header-container{
-    flex-wrap:nowrap;
-
-    }
-
-.nav-bar{
-    border-top:none;
-    padding-top:1.2rem;
-    }   
-
-.nav-cart{
-
-    order:1;
-    }
-
-.spring {
-    font-size:3rem;
-    width:auto;
-
-    }
-.category-rectangle{
-    flex-basis:50%;
-    display:inline;
-    overflow-y:hidden;
-    }
-
-.category-square{
-    flex-basis:25%;
-    width:50%;
-    display:inline-block;
-    box-sizing:border-box;
-    }
-
-.sale-item{
-    width:60%;
-    }
-
-.apparel-text{
-    width:650px;
-    }
-
-.main-carousel{
-    overflow-x:hidden;
-    }
-
-/*-----------------------COLLAGE BORDERS-----------------*/
-
-.mens-border{
-    border-bottom:none;
-    border-right:8px solid white;
-    }
-
-    .bags-border{
-    border-right:8px solid white;
-    }
-/*---------------------FOOTER --------------------*/
-
-input[type="email"] {
-
-    text-align:center;
-    margin:0 auto;
-    }
-
-.social-icons li:hover, .social-icons a:hover{
-
-    color:#e2574c;
-    }
-
-.signupdates {
-    min-width:100%;
-    }
-
-p4 {    
-    min-width:30%;
-
-    }
-footer {
-    display:flex;
-    justify-content:space-between;
-    flex-direction:row;
-    }
-
-.contact-info{
-    text-align:left;
-    padding-left:1.5rem;
-    padding-bottom:3rem;
-    }
-
-.social-icons{
-    margin-right: 50px;
-    text-align:left;
-    }
-
-.social-list{
-    margin-right:3rem;
-    }   
-
-.icon{
-padding: 0 0 1rem 0;
-
-    }
-
-.social-icons li{
-    display:block;
-    padding-left:10px;
-    width:auto;
-    }
-
-.social-text{
-    visibility:visible;
-    font-family:"raleway", sans-serif;
-    color:white;
-    font-weight:lighter;
-    padding-left:1rem;
-    text-decoration:none;
-    }
-
-}
 @media screen and (min-width: 1240px) {
-.hero {
-    height:630px;
-    width:100vw;
-    text-align: center;
-    background:
-    linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
-    url("images/banner-girl.png")no-repeat center 160px,
-    url("images/flower-bkgd.jpg") repeat-x center;
-    background-size: cover, 250px 615px, contain;
+    .hero {
+        height:630px;
+        width:100vw;
+        text-align: center;
+        background:
+        linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
+        url("images/banner-girl.png")no-repeat center 160px,
+        url("images/flower-bkgd.jpg") repeat-x center;
+        background-size: cover, 250px 615px, contain;
+        }
+
+    .new-collection{
+        padding-top:20.5rem;
+        }
+
+    .spring{
+        font-size:4rem;
+        }
+
+    .signupdates{
+
+        width:40%;
+
+        }
+
+    .sale-item{
+        width:30%;
+        }
+    .sale-item img{
+        width:73%;
+        }
+
     }
-
-.new-collection{
-    padding-top:20.5rem;
-    }
-
-.spring{
-    font-size:4rem;
-    }
-
-.signupdates{
-
-    width:40%;
-
-    }
-
-.sale-item{
-    width:30%;
-    }
-.sale-item img{
-    width:73%;
-    }
-
-}
