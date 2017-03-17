@@ -2,66 +2,46 @@
 
 
 
-# PROJECT 1 - ALOHA PROJECT - 
-=========================
-## LANGUAGES USED = HTML & CSS & JAVASCRIPT
-=========================
-
-## THIS IS A RESPONSIVE WEBDESIGN OF THE ALOHA DESIGN COMP PROVIDED TO US, WORKS ON ALL BROWSERS AND
-## MOBILE, TABLET, AND DESKTOP VERSIONS
-
+# ALOHA PROJECT
 ==========================================================================================
+## Languages used = HTML, CSS & Javascript
+------------------------------------------------------------------------------------------
 
-## ALOHA IS A MODERN SHOPPING WEBSITE WITH A SLEEK DESIGN AND SELLS CLOTHING PRODUCTS
+## This is a responsive web design of the Aloha sketch provided to us. It works on all browers and all screen resolutions.
+__________________________________________________________________________________________
 
-==========================================================================================
+## Aloha is a modern, clothing website with a sleek design a great functionality
+__________________________________________________________________________________________
 
-## THIS IS MY REPOSITORY FOR THE PROJECT
-
-===========================================================================================
 
 ### WHAT I LEARNED
 
 
 
-*Over my time of redoing I learned flex box is really valuable and I saw all the downsides of my previous 
+* Flexbox is really valuable and has given me the ability to move images and text at the start , center or end of a page perfectly.
 
-attempt with percentages. 
+* Using max-width to tell an item that it should not go past a certain width was helpful, especially using media queries where I would want content to stay the same size, no matter how big the screen gets.
 
-*Getting my flickity to work was really great and got me understanding how to import plug-ins work and gave me
+* Getting my flickity to work was really great and gave me an understanding of how to import plugins work and was a good teaching for show me how to implement other peoples code with my own.
 
-taught me plug-ins are nothing but other peoples code. 
+* Adding the email validator has taught me every site I design should have this, because if I were to send out monthly newsletters I'd only want to valid emails to have the ability to receive.
 
-*Adding the email validator was taught me every site I design should have this, because if I were to send out newsletters
-
-I'd only want to real emails. And after learning more about JS with selectors and event handlers before redoing my project,
-
-putting my Jquery object/button to be pressed made was easier than I expected
-
-*I understand flex-wrap a lot more after working on it alot to make my navigation collapse to the top when hitting tablet 
-
-version. Setting a specific width and dropping that width when hitting the tablet breakpoint 
-
-took a long time to figure out and was worth the time to perfect.
-
-*Another personal learning I got from this was is google is your best friend, but after struggling trying to get something to 
-
-work. Copy and pasting the JavaScript email validation and breaking it down and learning how it works, got me to 
-understand not only how it works, but the parts that build it. 
-
-*Flex-basis helped out alot of well, only taking up a certain length of the screen, giving my pictures a scalable look. 
-
-*I learned to follow the media queries given to me and not to try to make my own.
-
-*Using justify-content to push items to the start and end of page really helped out alot.
-
-*Finally, I learned organized code helps out alot, it really shows you who is the parent and child of something,
-and even organizing brackets in JavaScript makes a real difference, by making it clear which bracket belongs with
-
-what function.
+* Regex AKA regular expressions are really powerful and can filter anything I want other of a string.
 
 
+* I understand flex-wrap a lot more now, after utilizing it on my main navigation to collapse at the top of the best when the extending the width of the screen. It's a property that has alot of flexibility and use cases, especially at media query breakpoints.
 
 
+* Another personal learning I got from this is Google is your best friend. Analyzing the problem and knowing what exactly to search can bridge the gap between a problem going solved and unsolved.
+
+
+* Flex-basis helped out alot of well, only taking up a certain length of the screen, giving my pictures a scalable look. 
+
+
+* Using justify-content along with aligns items to perfectly center an item.
+
+* Using jQuery to create my first function was really fun ! I learned how to store a value in an input and manipulate that value by clicking a button. Alongside that I learned how to make input values readable only so others can not edit the text area.
+
+* Finally, I learned organized code is necessary, it really shows you which child belongs to which parent, and even organizing brackets in JavaScript makes a real difference, by making it clear which bracket belongs with what function.
 
 EDWARD LANTO
