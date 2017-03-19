@@ -28,15 +28,11 @@ ________________________________________________________________________________
 
 * Regex AKA regular expressions are really powerful and can filter anything I want out of a of a string.
 
-
 * I understand flex-wrap a lot more now, after utilizing it on my main navigation to collapse at the top of the best when the extending the width of the screen. It's a property that has alot of flexibility and use cases, especially at media query breakpoints.
-
 
 * Another personal learning I got from this is Google is your best friend. Analyzing the problem and knowing what exactly to search can bridge the gap between a problem going solved and unsolved.
 
-
 * Flex-basis helped out alot of well, only taking up a certain length of the screen, giving my pictures a scalable look. 
-
 
 * Using justify-content along with aligns items to perfectly center an item.
 

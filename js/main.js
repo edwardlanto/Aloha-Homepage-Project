@@ -54,7 +54,7 @@ $(document).ready(function () {
 
     document.getElementById("incrementer").setAttribute("readonly", "true");
     var i = 0;
-    $(".increment-button").click(function () {
+    $(".add-to-cart").click(function () {
         i++;
         document.getElementById("incrementer").value = i;
     })
