@@ -3,15 +3,15 @@
 
 
 # ALOHA PROJECT
-==========================================================================================
+
 ## Languages used = HTML, CSS & Javascript
-------------------------------------------------------------------------------------------
+
 
 ## This is a responsive web design of the Aloha sketch provided to us. It works on all browers and all screen resolutions.
-__________________________________________________________________________________________
+
 
 ## Aloha is a modern, clothing website with a sleek design a great functionality
-__________________________________________________________________________________________
+
 
 
 ### WHAT I LEARNED
